@@ -1,0 +1,14 @@
+<suite parallel="tests" name="Suite">
+  <test name="Test1">
+  <parameter name="config" value="qa_config.properties"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+  <test name="Test2">
+  <parameter name="config" value="stage1_config.properties"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+</suite>
